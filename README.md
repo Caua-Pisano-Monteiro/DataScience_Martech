@@ -1,7 +1,7 @@
 # 📊 Data Science & Martech: Análise de Campanhas de Marketing
-# 📌 Sobre o projeto
+## 📌 Sobre o projeto
 Este projeto explora dados de campanhas de marketing com Python para compreender indicadores de desempenho, observar padrões nos resultados e comparar canais de divulgação. A proposta é aplicar técnicas de análise de dados ao contexto de Marketing e Martech, transformando dados em informações que podem apoiar decisões de negócio.
-# 🎯 Objetivos
+## 🎯 Objetivos
 - Explorar a estrutura e a qualidade dos dados das campanhas.
 - Identificar os canais de marketing utilizados e sua frequência.
 - Calcular e analisar a taxa de cliques (CTR).
@@ -9,19 +9,19 @@ Este projeto explora dados de campanhas de marketing com Python para compreender
 - Analisar a distribuição das campanhas por estado.
 - Calcular o retorno sobre o investimento (ROI).
 - Comparar os resultados de ROI dos canais Google Ads e Email.
-# 🛠️ Tecnologias e bibliotecas
+## 🛠️ Tecnologias e bibliotecas
 - Python — linguagem utilizada na análise.
 - Pandas — leitura, manipulação e exploração dos dados.
 - NumPy — cálculos estatísticos.
 - Matplotlib — criação de gráficos.
 - Seaborn — visualização e análise da distribuição dos indicadores.
 - Jupyter Notebook / Google Colab — ambiente para executar o código e documentar a análise.
-# 📂 Arquivos
+## 📂 Arquivos
 - DataScienceMartech.ipynb — notebook com as etapas de exploração, cálculos e visualizações.
 - campanha.csv — base de dados utilizada pelo notebook. Esse arquivo precisa estar disponível no ambiente de execução.
 Importante: o notebook lê a base pelo caminho /content/campanha.csv, normalmente utilizado no Google Colab. Se você executar o projeto em outro ambiente, ajuste o caminho do arquivo no código.
 
-# 🔎 Etapas da análise
+## 🔎 Etapas da análise
 1. Exploração e qualidade dos dados
 - Visualização inicial dos registros.
 - Verificação da quantidade de linhas e colunas e dos tipos de dados.
@@ -43,7 +43,7 @@ Fórmula aplicada no notebook:
 ROI = (receita - custo) / custo
 O indicador é explorado por meio de gráficos e estatísticas, com comparação entre os canais Google Ads e Email usando média, mediana e desvio padrão.
 Observação: no código atual, o ROI é calculado como razão decimal, sem multiplicação por 100. Portanto, para apresentar o resultado em porcentagem, é necessário multiplicar o valor por 100. Além disso, somar os ROIs individuais não equivale necessariamente ao ROI consolidado de todas as campanhas.
-# 📈 Principais análises realizadas
+## 📈 Principais análises realizadas
 - Distribuição e frequência dos canais de marketing.
 - Comportamento do CTR e identificação de possíveis valores atípicos.
 - Média de impressões por campanha.
