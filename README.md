@@ -1,5 +1,5 @@
 # 📊 Data Science & Martech: Análise de Campanhas de Marketing
-📌 Sobre o projeto
+# 📌 Sobre o projeto
 Este projeto explora dados de campanhas de marketing com Python para compreender indicadores de desempenho, observar padrões nos resultados e comparar canais de divulgação. A proposta é aplicar técnicas de análise de dados ao contexto de Marketing e Martech, transformando dados em informações que podem apoiar decisões de negócio.
 # 🎯 Objetivos
 - Explorar a estrutura e a qualidade dos dados das campanhas.
